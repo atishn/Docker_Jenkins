@@ -1,6 +1,6 @@
-This workspace is intended to create a Docker Environment with Jenkins setup. This can be very easily configured and modified as per convinience.
+This workspace is intended to create a Docker Environment with Jenkins setup. This can be very easily configured and modified as per convenience.
 
-I am going to use this for setup of Jenkins Workshop enviornment for the attendees. Each attendees can spinup a docker instance using following commands.
+I am going to use this for setup of Jenkins Workshop environment for the attendees. Each attendees can spinup a docker instance using following commands.
 
 Pre-requisite :
   1. Mac/Linux
@@ -24,10 +24,10 @@ docker ps
 http://192.168.59.103:49153/
 
 
-# For giving access to multiple users in workshops incase you decide to spinup instance at your machine, may need to expose docker ports as your local port.
+# For giving access to multiple users in workshops incase you decide to spin-up instance at your machine, may need to expose docker ports as your local port.
 Please go through Port forwarding in VirtualBox Network Settings
 
-# If exposed your machine as jenkins.local on local LAN, then you can access following enviornment by hitting from Closed network.
+# If exposed your machine as jenkins.local on local LAN, then you can access following environment by hitting from Closed network.
 
 http://jenkins.local:49153/
 http://jenkins.local:49154/
