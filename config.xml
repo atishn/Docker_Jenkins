@@ -33,8 +33,12 @@
       <properties class="hudson.model.View$PropertyList"/>
       <componentSpecs>
         <se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
-          <name>Example</name>
+          <name>Job-A</name>
           <firstJob>Job-A</firstJob>
+        </se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
+        <se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
+          <name>Job-X</name>
+          <firstJob>Job-X</firstJob>
         </se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
       </componentSpecs>
       <noOfPipelines>3</noOfPipelines>

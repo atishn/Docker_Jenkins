@@ -10,6 +10,11 @@ RUN apt-get update && apt-get install jenkins -y
 RUN mkdir -p /var/lib/jenkins/.jenkins/plugins
 ADD ./plugins/ /var/lib/jenkins/.jenkins/plugins/
 
+
+## Time zone
+RUN echo America/New York > /etc/timezone && dpkg-reconfigure --frontend noninteractive tzdata
+
+
 ## Create Jenkins Jobs folder and seeds it with precreated demo jobs
 RUN mkdir -p /var/lib/jenkins/.jenkins/jobs
 ADD ./jobs/ /var/lib/jenkins/.jenkins/jobs/
