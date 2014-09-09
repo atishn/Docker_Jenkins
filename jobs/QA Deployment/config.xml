@@ -4,9 +4,9 @@
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
-    <se.diabol.jenkins.pipeline.PipelineProperty plugin="delivery-pipeline-plugin@0.8.6">
+    <se.diabol.jenkins.pipeline.PipelineProperty plugin="delivery-pipeline-plugin@0.8.5">
       <taskName>QA Deployment</taskName>
-      <stageName>Deployment</stageName>
+      <stageName>QA Deployment</stageName>
     </se.diabol.jenkins.pipeline.PipelineProperty>
   </properties>
   <scm class="hudson.scm.NullSCM"/>
@@ -19,7 +19,7 @@
   <builders/>
   <publishers/>
   <buildWrappers>
-    <se.diabol.jenkins.pipeline.PipelineVersionContributor plugin="delivery-pipeline-plugin@0.8.6">
+    <se.diabol.jenkins.pipeline.PipelineVersionContributor plugin="delivery-pipeline-plugin@0.8.5">
       <versionTemplate>1.0.0.${BUILD_NUMBER}</versionTemplate>
       <updateDisplayName>true</updateDisplayName>
     </se.diabol.jenkins.pipeline.PipelineVersionContributor>

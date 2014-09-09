@@ -25,32 +25,6 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.AllView>
-    <se.diabol.jenkins.pipeline.DeliveryPipelineView plugin="delivery-pipeline-plugin@0.8.5">
-      <owner class="hudson" reference="../../.."/>
-      <name>Example Pipeline</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-      <componentSpecs>
-        <se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
-          <name>Job-A</name>
-          <firstJob>Job-A</firstJob>
-        </se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
-        <se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
-          <name>Job-X</name>
-          <firstJob>Job-X</firstJob>
-        </se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
-      </componentSpecs>
-      <noOfPipelines>3</noOfPipelines>
-      <showAggregatedPipeline>false</showAggregatedPipeline>
-      <noOfColumns>1</noOfColumns>
-      <sorting>none</sorting>
-      <showAvatars>false</showAvatars>
-      <updateInterval>2</updateInterval>
-      <showChanges>false</showChanges>
-      <allowManualTriggers>false</allowManualTriggers>
-      <regexpFirstJobs/>
-    </se.diabol.jenkins.pipeline.DeliveryPipelineView>
   </views>
   <primaryView>All</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
