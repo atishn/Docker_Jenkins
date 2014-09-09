@@ -34,4 +34,4 @@ http://jenkins.local:49155/
 
 
 Note: Copy command incase needed
-docker cp account1:/var/lib/jenkins/.jenkins/jobs/ .
+docker cp workshop1:/var/lib/jenkins/.jenkins/jobs/ .

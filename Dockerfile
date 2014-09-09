@@ -4,7 +4,7 @@ MAINTAINER SysOps "sysops@hugeinc.com"
 RUN apt-get update && apt-get install wget -yy
 RUN wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
 RUN echo "deb http://pkg.jenkins-ci.org/debian binary/" >> /etc/apt/sources.list
-RUN apt-get update && apt-get install jenkins -y
+RUN apt-get update && apt-get install git jenkins -y
 
 ## Create Jenkins Plugin Folder and seed it with Pipeline plugin and dependencies
 RUN mkdir -p /var/lib/jenkins/.jenkins/plugins
