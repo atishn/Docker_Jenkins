@@ -3,16 +3,17 @@ This workspace is intended to create a Docker Environment with Jenkins setup. Th
 I am going to use this for setup of Jenkins Workshop environment for the attendees. Each attendees can spinup a docker instance using following commands.
 
 Pre-requisite :
-  1. Mac/Linux
-  2. Docker
-
+  1. Docker
 
 Commands:
-
+If you are using Mac
 * boot2docker start
-
 * Note: Look for which tcp IP address docker asks to export.
 * export DOCKER_HOST=tcp://192.168.59.103:2375
+
+If you are using other systems like centos, or ubuntu
+* service docker start
+
 
 * docker build -t jenkins .
 * docker run -d -P --name workshop1 -t jenkins
